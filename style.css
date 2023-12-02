@@ -1,0 +1,10 @@
+.bg-neutral {
+  background-image: url("./images/neutral-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+}
+
+.contain {
+  height: 100%
+}
