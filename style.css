@@ -1,10 +1,49 @@
 .bg-neutral {
   background-image: url("./images/neutral-bg.jpg");
-  background-repeat: no-repeat;
   background-size: contain;
   background-size: 100%;
 }
 
-.contain {
-  height: 100%
+.carImg-size {
+  width: 400px;
+  height: 400px;
+}
+
+.benImg-size {
+  width: 75%;
+}
+
+.benTxt-w {
+  width: 25%;
+}
+
+.frm-w {
+  width: 75%;
+}
+
+.fdiv-w {
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .disappear {
+    display: none;
+  }
+
+  .carImg-size {
+    width: 250px;
+    height: 250px;
+  }
+
+  .benTxt-w {
+    width: 100%
+  }
+
+  .frm-w {
+    width: 90%;
+  }
+
+  .fdiv-w {
+    width: 100%;
+  }
 }
