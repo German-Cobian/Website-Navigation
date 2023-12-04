@@ -4,6 +4,11 @@
   background-size: 100%;
 }
 
+.cellImg {
+  height: 400px;
+  width: 300;
+}
+
 .carImg-size {
   width: 400px;
   height: 400px;
@@ -28,6 +33,11 @@
 @media screen and (max-width: 1000px) {
   .disappear {
     display: none;
+  }
+
+  .cellImg {
+    height: 300px;
+    width: 225;
   }
 
   .carImg-size {
